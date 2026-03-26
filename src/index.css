@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+/* MAIN CARD */
+.container {
+  width: 420px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 40px rgba(56, 189, 248, 0.2);
+  animation: fadeIn 1s ease;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* INPUT GROUP */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* BUTTON */
+button {
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* LIST */
+ul {
+  list-style: none;
+}
+
+/* ITEM */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
+
+/* TEXT */
+.todo-text {
+  cursor: pointer;
+}
+
+/* COMPLETED */
+.completed {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+/* ACTIONS */
+.actions button {
+  margin-left: 5px;
+}
+
+/* PRIORITY COLORS */
+.high {
+  border-left: 5px solid #ef4444;
+}
+
+.medium {
+  border-left: 5px solid #facc15;
+}
+
+.low {
+  border-left: 5px solid #22c55e;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
