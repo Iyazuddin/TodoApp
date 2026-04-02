@@ -17,7 +17,7 @@ A simple and clean Todo App built using HTML, CSS, and JavaScript.
 
 ## 🌐 Live Demo
 
-(Will add after deployment)
+https://iyaz-todoapp.netlify.app
 
 ## 📂 Project Setup
 
