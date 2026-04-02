@@ -1,6 +1,6 @@
 # 📝 Todo App
 
-A simple and clean Todo App built using HTML, CSS, and JavaScript.
+A simple and clean Todo App built using React
 
 ## 🚀 Features
 
@@ -11,9 +11,7 @@ A simple and clean Todo App built using HTML, CSS, and JavaScript.
 
 ## 🛠️ Tech Stack
 
-* HTML
-* CSS
-* JavaScript
+* React
 
 ## 🌐 Live Demo
 
