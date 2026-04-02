@@ -15,10 +15,6 @@ A simple and clean Todo App built using HTML, CSS, and JavaScript.
 * CSS
 * JavaScript
 
-## 📸 Screenshot
-
-(Add your project screenshot here)
-
 ## 🌐 Live Demo
 
 (Will add after deployment)
