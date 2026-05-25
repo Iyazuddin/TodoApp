@@ -6,7 +6,6 @@ A simple and clean Todo App built using React
 
 * Add new tasks
 * Delete tasks
-* Mark tasks as completed
 * Simple and user-friendly UI
 
 ## 🛠️ Tech Stack
